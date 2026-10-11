@@ -1,0 +1,29 @@
+{
+  "name": "kanchana-jayendran-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "typecheck": "tsc --noEmit",
+    "assets:logos": "node scripts/build-logos.mjs",
+    "assets:hero": "python3 scripts/build-hero-assets.py"
+  },
+  "dependencies": {
+    "@tailwindcss/postcss": "^4.3.3",
+    "@types/node": "^26.6.5",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "lenis": "^1.3.26",
+    "next": "^15.5.27",
+    "postcss": "^8.5.29",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "tailwindcss": "^4.3.3",
+    "typescript": "^5.9.3"
+  },
+  "devDependencies": {
+    "simple-icons": "^16.35.0"
+  }
+}
